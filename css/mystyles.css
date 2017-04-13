@@ -1,0 +1,37 @@
+/*
+ * filename : mystyles.css
+ * author : me
+ * class : GWDB_223
+ */
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+#wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+
+header, footer {
+    height: 120px;
+    border: 1px solid #000;
+}
+
+nav {
+    height: 80px;
+    border: 1px solid #000;
+}
+
+content {
+
+    border: 1px solid #000;
+}
+
+aside {
+
+    border: 1px solid #000;
+}
+
