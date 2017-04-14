@@ -18,12 +18,40 @@ body {
 header, footer {
     height: 120px;
     border: 1px solid #000;
+    clear: both;
 }
 
 nav {
     height: 80px;
     border: 1px solid #000;
 }
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+nav ul li a {
+    border: 1px solid #000;
+    width: 16%;
+    float: left;
+    text-align: center;
+    height: 79px;
+    line-height: 80px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: red;
+    color: #000;
+
+}
+
+
 
 #content-aside-wrapper {
 
